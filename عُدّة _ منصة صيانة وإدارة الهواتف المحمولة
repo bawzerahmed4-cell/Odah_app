@@ -1,0 +1,1246 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://mobile-maintenance-platform.netlify.app/
+Subject: =?utf-8?Q?=D8=B9=D9=8F=D8=AF=D9=91=D8=A9=20|=20=D9=85=D9=86=D8=B5=D8=A9?=
+ =?utf-8?Q?=20=D8=B5=D9=8A=D8=A7=D9=86=D8=A9=20=D9=88=D8=A5=D8=AF=D8=A7=D8?=
+ =?utf-8?Q?=B1=D8=A9=20=D8=A7=D9=84=D9=87=D9=88=D8=A7=D8=AA=D9=81=20=D8=A7?=
+ =?utf-8?Q?=D9=84=D9=85=D8=AD=D9=85=D9=88=D9=84=D8=A9?=
+Date: Sun, 01 Nov 2026 11:32:13 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----"
+
+
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/html
+Content-ID: <frame-3BC8621552DDE247BFCF210970A4D50D@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://mobile-maintenance-platform.netlify.app/
+
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-472c4a21-c760-4cd7-a7b4-59ee1067aacd@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-64d01605-6262-4763-a7b6-07d0173b314f@mhtml.blink" />
+
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=a9457cf3-36ec-4ad4-b50e-1652b388c266
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta property="og:image" content="https://mobile-maintenance-platform.netlify.app/.netlify/og-image/b7c740c9439af7092a4e1af0d37aa43b.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>عُدّة | منصة صيانة وإدارة الهواتف المحمولة</title>
+<meta name="description" content="عُدّة: سوق قطع غيار وشاشات الهواتف، محرك تشخيص هندسي، دفع وتحويل محلي، دفتر حسابات وضمانات في تطبيق واحد.">
+
+<!-- متطلبات تحويل الصفحة إلى تطبيق (PWA) -->
+<link rel="manifest" href="https://mobile-maintenance-platform.netlify.app/manifest.webmanifest">
+<meta name="theme-color" content="#0f172a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="عُدّة">
+<meta name="application-name" content="عُدّة">
+<link rel="icon" href="https://mobile-maintenance-platform.netlify.app/icons/icon.svg" type="image/svg+xml">
+<link rel="icon" href="https://mobile-maintenance-platform.netlify.app/icons/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://mobile-maintenance-platform.netlify.app/icons/apple-touch-icon.png">
+
+<!-- الخطوط (تحميل غير معطِّل بدلاً من ‎@import‎) -->
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link rel="preconnect" href="https://cdn.jsdelivr.net/" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&amp;display=swap">
+
+<!-- Tailwind CSS CDN -->
+
+<!-- Chart.js ومكتبات التصدير Excel و PDF تُحمَّل عند الحاجة فقط (انظر loadScript) -->
+
+
+
+</head>
+<body class="min-h-screen flex flex-col custom-scrollbar">
+
+<!-- شاشة تسجيل الدخول واختيار الصلاحيات -->
+<div id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle" class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 hidden">
+<div class="bg-cardBg border border-slate-700 p-8 rounded-2xl w-full max-w-md shadow-2xl text-center">
+<div class="w-16 h-16 bg-blue-600/20 text-blue-400 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold border border-blue-500/30">عُدّة</div>
+<h2 id="loginTitle" class="text-2xl font-bold mb-2">منصة عُدّة لقطع الغيار والصيانة</h2>
+<p class="text-slate-400 text-sm mb-6">اختر طريقة الدخول للنظام لمعاينة الواجهة المناسبة</p>
+<div class="space-y-4">
+<button class="w-full bg-slate-700 hover:bg-slate-600 font-semibold py-3 px-4 rounded-xl transition flex items-center justify-center gap-2 text-white">
+🛒 الدخول كعميل / فني (زبون)
+</button>
+<div class="border-t border-slate-700 pt-4">
+<p class="text-xs text-slate-400 mb-2">تسجيل دخول التاجر / المسؤول (شامل إدارة النفقات السحابية)</p>
+<input type="password" id="adminPin" inputmode="numeric" autocomplete="current-password" aria-label="رمز مرور التاجر" placeholder="أدخل رمز المرور (الافتراضي: 1234)" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-center text-sm mb-2 focus:outline-none focus:border-blue-500 text-white">
+<button class="w-full bg-blue-600 hover:bg-blue-500 font-semibold py-3 px-4 rounded-xl transition shadow-lg shadow-blue-600/30 text-white">
+🔐 دخول كتاجر / مسؤول النظام
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- زر تثبيت التطبيق الذكي -->
+<div id="pwaInstallBanner" class="hidden bg-blue-600 text-white p-3 text-center font-semibold text-sm flex justify-between items-center gap-3 px-6">
+<span id="pwaInstallText">احصل على تجربة أفضل وثبت تطبيق "عُدّة" على جهازك الآن!</span>
+<div class="flex items-center gap-2 shrink-0">
+<button class="bg-slate-900 hover:bg-slate-800 text-white px-4 py-1.5 rounded-xl text-xs transition">تثبيت التطبيق</button>
+<button aria-label="إخفاء" class="text-white/80 hover:text-white px-2 text-lg leading-none">×</button>
+</div>
+</div>
+
+<!-- شريط التنقل العلوي -->
+<header class="bg-cardBg border-b border-slate-800 sticky top-0 z-40 px-4 py-3">
+<div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-4">
+<div class="flex items-center gap-3">
+<span class="bg-blue-600 text-white font-black px-3 py-1.5 rounded-lg text-lg tracking-wider">عُدّة</span>
+<div>
+<h1 class="font-bold text-lg leading-tight" id="headerTitle">منصة عُدّة الاحترافية</h1>
+<span id="userRoleBadge" class="text-xs px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">عميل / فني</span>
+</div>
+</div>
+<div class="flex items-center gap-2 bg-slate-900 p-1.5 rounded-xl border border-slate-800">
+<label for="currencySelector" class="text-xs text-slate-400 px-2">العملة:</label>
+<select id="currencySelector" class="bg-slate-800 text-sm font-semibold rounded-lg px-3 py-1 border border-slate-700 focus:outline-none text-blue-400">
+<option value="SAR">ريال سعودي (SAR)</option>
+<option value="YER">ريال يمني (YER)</option>
+<option value="USD">دولار أمريكي (USD)</option>
+</select>
+</div>
+<nav class="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0 custom-scrollbar" aria-label="التنقل الرئيسي">
+<button data-tab="market" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold bg-blue-600 text-white transition" aria-current="page">سوق القطع</button>
+<button data-tab="cart" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-800 transition relative">
+🛒 السلة <span id="cartBadge" class="bg-amber-500 text-slate-950 text-xs px-1.5 py-0.5 rounded-full font-bold ml-1">0</span>
+</button>
+<button data-tab="diagnostics" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">التشخيص</button>
+<button data-tab="payments" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">الدفع</button>
+<button data-tab="ledger" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">الحسابات</button>
+<button data-tab="warranty" class="tab-btn shrink-0 px-3 py-2 rounded-xl text-sm font-semibold text-slate-300 hover:bg-slate-800 transition">الضمان</button>
+<button data-tab="merchant" id="merchantTabBtn" class="tab-btn hidden shrink-0 px-3 py-2 rounded-xl text-sm font-semibold bg-amber-600/20 text-amber-400 border border-amber-500/30 transition">لوحة التاجر</button>
+<button class="shrink-0 px-3 py-2 rounded-xl text-xs font-semibold bg-red-600/20 text-red-400 border border-red-500/30 hover:bg-red-600 hover:text-white transition">خروج</button>
+</nav>
+</div>
+</header>
+
+<!-- المحتوى الرئيسي -->
+<main class="max-w-7xl mx-auto p-4 flex-grow w-full space-y-6">
+
+<!-- 1. سوق قطع الغيار -->
+<section id="tab-market" class="tab-content space-y-6">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 bg-cardBg p-4 rounded-2xl border border-slate-800">
+<div>
+<h2 class="text-xl font-bold">سوق قطع الغيار والشاشات</h2>
+<p class="text-slate-400 text-sm">تصفح القطع وأضفها إلى السلة أو اطلبها مباشرة</p>
+</div>
+<div class="flex gap-2 w-full md:w-auto">
+<select id="marketBrand" aria-label="تصفية حسب الماركة" class="bg-slate-900 border border-slate-700 px-3 py-2 rounded-xl text-sm focus:outline-none focus:border-blue-500 text-white">
+<option value="">كل الماركات</option>
+<option value="Apple">Apple</option><option value="Samsung">Samsung</option><option value="Xiaomi">Xiaomi</option><option value="HONOR">HONOR</option><option value="Huawei">Huawei</option><option value="LTI">LTI</option><option value="Tecno">Tecno</option></select>
+<input type="search" id="marketSearch" aria-label="بحث" placeholder="ابحث عن قطعة أو شاشة..." class="bg-slate-900 border border-slate-700 px-4 py-2 rounded-xl text-sm w-full md:w-64 focus:outline-none focus:border-blue-500 text-white">
+</div>
+</div>
+<div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">📱</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400">أصلي</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">شاشة iPhone 13 Pro Max OLED</h3>
+      <p class="text-xs text-slate-400 mt-1">Apple • شاشات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">91,000 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 6</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p1" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p1" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">🔋</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">OEM</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">بطارية iPhone 11 سعة أصلية</h3>
+      <p class="text-xs text-slate-400 mt-1">Apple • بطاريات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">16,800 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 15</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p2" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p2" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">📱</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400">أصلي</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">شاشة Galaxy S22 Ultra مع الإطار</h3>
+      <p class="text-xs text-slate-400 mt-1">Samsung • شاشات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">124,600 YER</span>
+        <span class="block text-xs text-amber-300">المتوفر: 3</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p3" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p3" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">🔌</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">OEM</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">فلاتة شحن Galaxy A52</h3>
+      <p class="text-xs text-slate-400 mt-1">Samsung • شحن ومنافذ</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">4,900 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 25</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p4" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p4" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">📱</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">تجاري</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">شاشة Redmi Note 12 AMOLED</h3>
+      <p class="text-xs text-slate-400 mt-1">Xiaomi • شاشات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">25,200 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 9</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p5" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p5" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">🔋</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">OEM</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">بطارية HONOR X8</h3>
+      <p class="text-xs text-slate-400 mt-1">HONOR • بطاريات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">9,800 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 12</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p6" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p6" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">🧩</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400">أصلي</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">آي سي شبكة Huawei Y9</h3>
+      <p class="text-xs text-slate-400 mt-1">Huawei • آيسيات وبورد</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">13,300 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 4</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p7" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p7" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">📱</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">تجاري</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">شاشة Tecno Spark 10</h3>
+      <p class="text-xs text-slate-400 mt-1">Tecno • شاشات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">15,400 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 10</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p8" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p8" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">📱</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">تجاري</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">شاشة LTI مع اللمس</h3>
+      <p class="text-xs text-slate-400 mt-1">LTI • شاشات</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">12,600 YER</span>
+        <span class="block text-xs text-amber-300">المتوفر: 2</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p9" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p9" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article><article class="bg-cardBg border border-slate-800 rounded-2xl p-4 flex flex-col gap-3 hover:border-blue-500/40 transition">
+    <div class="flex items-start justify-between gap-3">
+      <div class="w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center text-2xl" aria-hidden="true">🧩</div>
+      <span class="text-[11px] px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-400">أصلي</span>
+    </div>
+    <div>
+      <h3 class="font-bold leading-snug">آي سي شحن Tristar iPhone</h3>
+      <p class="text-xs text-slate-400 mt-1">Apple • آيسيات وبورد</p>
+    </div>
+    <div class="flex items-end justify-between mt-auto">
+      <div>
+        <span class="text-lg font-black text-amber-400">8,400 YER</span>
+        <span class="block text-xs text-slate-400">المتوفر: 8</span>
+      </div>
+      
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button data-action="add-to-cart" data-id="p10" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">+ أضف للسلة</button>
+      <button data-action="order-now" data-id="p10" class="bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 hover:bg-emerald-600 hover:text-white text-sm font-semibold py-2 rounded-xl transition disabled:opacity-40 disabled:cursor-not-allowed">📱 اطلب الآن</button>
+    </div>
+  </article></div>
+</section>
+
+<!-- 2. عربة التسوق وسلة المشتريات -->
+<section id="tab-cart" class="tab-content hidden space-y-6">
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800 max-w-3xl mx-auto space-y-4">
+<div class="flex justify-between items-center border-b border-slate-800 pb-4">
+<div>
+<h2 class="text-xl font-bold text-blue-400">🛒 سلة المشتريات المختارة</h2>
+<p class="text-slate-400 text-sm">راجع القطع التي اخترتها قبل إرسال الطلب</p>
+</div>
+<button class="text-xs bg-red-600/20 text-red-400 border border-red-500/30 px-3 py-1.5 rounded-lg hover:bg-red-600 hover:text-white transition">إفراغ السلة</button>
+</div>
+<div id="cartItemsList" class="space-y-3">
+<p class="text-slate-400 text-sm text-center py-6">السلة فارغة حالياً.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 border-t border-slate-800 pt-4">
+<div><label for="cartCustomer" class="lbl">اسم العميل / المحل</label><input id="cartCustomer" class="field" autocomplete="name" placeholder="مثال: محل النور للصيانة"></div>
+<div><label for="cartNote" class="lbl">ملاحظات الطلب (اختياري)</label><input id="cartNote" class="field" placeholder="العنوان، وقت التسليم..."></div>
+</div>
+<div class="border-t border-slate-800 pt-4 flex flex-wrap gap-3 justify-between items-center">
+<div>
+<span class="text-xs text-slate-400 block">الإجمالي الكلي:</span>
+<h3 id="cartTotalPrice" class="text-xl font-black text-amber-400">0 SAR</h3>
+</div>
+<button class="bg-emerald-600 hover:bg-emerald-500 text-white px-6 py-3 rounded-xl font-semibold transition shadow-lg shadow-emerald-600/20">📱 إرسال السلة كاملة عبر الواتساب</button>
+</div>
+</div>
+</section>
+
+<!-- 3. التشخيص الهندسي الشامل -->
+<section id="tab-diagnostics" class="tab-content hidden space-y-6">
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h2 class="text-xl font-bold mb-2">محرك التشخيص الهندسي الشامل</h2>
+<p class="text-slate-400 text-sm mb-4">اختر الماركة ونوع العطل للحصول على خطوات الإصلاح القياسية</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+<select id="diagBrand" aria-label="الماركة" class="bg-slate-900 border border-slate-700 p-3 rounded-xl text-sm text-slate-200">
+<option value="Apple">Apple iPhone</option>
+<option value="Samsung">Samsung Galaxy</option>
+<option value="Xiaomi">Xiaomi</option>
+<option value="HONOR">HONOR</option>
+<option value="Huawei">Huawei</option>
+<option value="LTI">LTI</option>
+<option value="Tecno">Tecno</option>
+</select>
+<select id="diagIssue" aria-label="نوع العطل" class="bg-slate-900 border border-slate-700 p-3 rounded-xl text-sm text-slate-200">
+<option value="screen">تكسير شاشة / لمس لا يستجيب</option>
+<option value="battery">نفاذ سريع / تفريغ بطارية</option>
+<option value="charging">عطل في شحن البورد / مسار VBUS</option>
+<option value="network">ضعف شبكة / فقدان آي سي الشبكة</option>
+</select>
+<button class="bg-blue-600 hover:bg-blue-500 font-semibold py-3 px-6 rounded-xl transition text-white">تشخيص العطل فوراً</button>
+</div>
+<div id="diagResult" class="hidden bg-slate-900 p-4 rounded-xl border border-slate-700 space-y-3" aria-live="polite">
+<h3 class="font-bold text-blue-400">تقرير الفحص الهندسي:</h3>
+<p id="diagSteps" class="text-sm text-slate-300 leading-relaxed whitespace-pre-line"></p>
+<div id="diagParts" class="space-y-2"></div>
+<button class="bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2">📱 إرسال التقرير عبر الواتساب</button>
+</div>
+</div>
+</section>
+
+<!-- 4. بوابة الدفع والتحويل المحلي -->
+<section id="tab-payments" class="tab-content hidden space-y-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-4">
+<div>
+<h2 class="text-xl font-bold">بوابة الدفع والتحويل المحلي</h2>
+<p class="text-slate-400 text-sm">حوّل المبلغ لأحد الحسابات التالية ثم أرسل إشعار التحويل</p>
+</div>
+<div id="paymentMethodsList" class="space-y-3"></div>
+</div>
+<form id="paymentForm" class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-4">
+<h3 class="font-bold text-blue-400">💸 إشعار تحويل جديد</h3>
+<div><label for="payMethod" class="lbl">طريقة الدفع</label><select id="payMethod" class="field"></select></div>
+<div><label for="payAmount" class="lbl">المبلغ (<span class="cur-label">YER</span>)</label><input id="payAmount" type="number" min="0" step="any" required="" class="field" placeholder="0"></div>
+<div><label for="payName" class="lbl">اسم المحوِّل</label><input id="payName" required="" class="field" autocomplete="name"></div>
+<div><label for="payRef" class="lbl">رقم الحوالة / المرجع</label><input id="payRef" class="field" placeholder="مطلوب لجميع الطرق عدا النقد"></div>
+<button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white py-3 rounded-xl font-semibold transition">إرسال الإشعار للتاجر عبر الواتساب</button>
+</form>
+</div>
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">سجل إشعارات الدفع</h3>
+<div id="paymentsList" class="space-y-2"></div>
+</div>
+</section>
+
+<!-- 5. الحسابات ودفتر اليومية -->
+<section id="tab-ledger" class="tab-content hidden space-y-6">
+<!-- عرض العميل: سجل الطلبات -->
+<div class="client-only bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h2 class="text-xl font-bold mb-1">سجل طلباتي</h2>
+<p class="text-slate-400 text-sm mb-4">الطلبات المرسلة من هذا الجهاز وحالتها</p>
+<div id="clientOrdersList" class="space-y-2"></div>
+</div>
+<!-- عرض التاجر: دفتر الحسابات -->
+<div class="merchant-only space-y-6 hidden">
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">إجمالي الإيرادات</span><h3 id="ledgerIncome" class="text-2xl font-black text-emerald-400">0</h3></div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">إجمالي المصروفات</span><h3 id="ledgerExpense" class="text-2xl font-black text-rose-400">0</h3></div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">صافي الربح</span><h3 id="ledgerNet" class="text-2xl font-black text-amber-400">0</h3></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="lg:col-span-2 bg-cardBg p-4 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">الإيرادات والمصروفات — آخر 6 أشهر</h3>
+<div class="relative h-64"><canvas id="ledgerChart" role="img" aria-label="رسم بياني للإيرادات والمصروفات الشهرية"></canvas></div>
+</div>
+<form id="ledgerForm" class="bg-cardBg p-4 rounded-2xl border border-slate-800 space-y-3">
+<h3 class="font-bold">قيد جديد</h3>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="ledType" class="lbl">النوع</label><select id="ledType" class="field"><option value="income">إيراد</option><option value="expense">مصروف</option></select></div>
+<div><label for="ledDate" class="lbl">التاريخ</label><input id="ledDate" type="date" required="" class="field"></div>
+</div>
+<div><label for="ledCategory" class="lbl">التصنيف</label><input id="ledCategory" list="ledCategories" required="" class="field" placeholder="مبيعات، إيجار، رواتب..."><datalist id="ledCategories"></datalist></div>
+<div><label for="ledAmount" class="lbl">المبلغ (<span class="cur-label">YER</span>)</label><input id="ledAmount" type="number" min="0" step="any" required="" class="field"></div>
+<div><label for="ledNote" class="lbl">ملاحظات</label><input id="ledNote" class="field"></div>
+<button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold transition">حفظ القيد</button>
+</form>
+</div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800">
+<div class="flex flex-wrap justify-between items-center gap-2 mb-3">
+<h3 class="font-bold">دفتر القيود</h3>
+<div class="flex gap-2">
+<button class="text-xs bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 px-3 py-1.5 rounded-lg hover:bg-emerald-600 hover:text-white transition">⬇️ Excel</button>
+<button class="text-xs bg-rose-600/20 text-rose-400 border border-rose-500/30 px-3 py-1.5 rounded-lg hover:bg-rose-600 hover:text-white transition">⬇️ PDF</button>
+</div>
+</div>
+<div class="overflow-x-auto custom-scrollbar">
+<table class="w-full text-sm text-right">
+<thead class="text-xs text-slate-400 border-b border-slate-800"><tr><th class="py-2 px-2">التاريخ</th><th class="px-2">النوع</th><th class="px-2">التصنيف</th><th class="px-2">المبلغ</th><th class="px-2">ملاحظات</th><th class="px-2"></th></tr></thead>
+<tbody id="ledgerTable"></tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 6. الضمان -->
+<section id="tab-warranty" class="tab-content hidden space-y-6">
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800 max-w-3xl mx-auto space-y-4">
+<div>
+<h2 class="text-xl font-bold">التحقق من الضمان</h2>
+<p class="text-slate-400 text-sm">أدخل رقم الضمان أو رقم IMEI للتحقق من صلاحية ضمان القطعة أو الصيانة</p>
+</div>
+<form class="flex gap-2">
+<input id="warrantyQuery" required="" aria-label="رقم الضمان أو IMEI" class="field" placeholder="مثال: UD-7K2M9Q">
+<button type="submit" class="shrink-0 bg-blue-600 hover:bg-blue-500 text-white px-5 rounded-xl font-semibold transition">تحقق</button>
+</form>
+<div id="warrantyResult" aria-live="polite"></div>
+</div>
+<div class="merchant-only grid grid-cols-1 lg:grid-cols-2 gap-6 hidden">
+<form id="warrantyForm" class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-3">
+<h3 class="font-bold text-amber-400">🛡️ إصدار ضمان جديد</h3>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="wCustomer" class="lbl">اسم العميل</label><input id="wCustomer" required="" class="field"></div>
+<div><label for="wPhone" class="lbl">جوال العميل</label><input id="wPhone" type="tel" class="field" placeholder="9665xxxxxxxx"></div>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="wDevice" class="lbl">الجهاز</label><input id="wDevice" required="" class="field" placeholder="iPhone 13 Pro"></div>
+<div><label for="wImei" class="lbl">IMEI (اختياري)</label><input id="wImei" inputmode="numeric" class="field"></div>
+</div>
+<div><label for="wPart" class="lbl">القطعة / نوع الصيانة</label><input id="wPart" required="" class="field" placeholder="تغيير شاشة OLED"></div>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="wStart" class="lbl">تاريخ البدء</label><input id="wStart" type="date" required="" class="field"></div>
+<div><label for="wMonths" class="lbl">المدة</label><select id="wMonths" class="field"><option value="1">شهر</option><option value="3" selected="">3 أشهر</option><option value="6">6 أشهر</option><option value="12">سنة</option></select></div>
+</div>
+<button type="submit" class="w-full bg-amber-600 hover:bg-amber-500 text-white py-2.5 rounded-xl font-semibold transition">إصدار الضمان</button>
+</form>
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">الضمانات الصادرة</h3>
+<div id="warrantyList" class="space-y-2 max-h-[28rem] overflow-y-auto custom-scrollbar"></div>
+</div>
+</div>
+</section>
+
+<!-- 7. لوحة التاجر -->
+<section id="tab-merchant" class="tab-content hidden space-y-6">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">طلبات قيد التنفيذ</span><h3 id="statPendingOrders" class="text-2xl font-black text-blue-400">0</h3></div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">إشعارات دفع للمراجعة</span><h3 id="statPendingPayments" class="text-2xl font-black text-amber-400">0</h3></div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">أصناف منخفضة المخزون</span><h3 id="statLowStock" class="text-2xl font-black text-rose-400">0</h3></div>
+<div class="bg-cardBg p-4 rounded-2xl border border-slate-800"><span class="text-xs text-slate-400">النفقات السحابية الشهرية</span><h3 id="statCloud" class="text-2xl font-black text-slate-200">0</h3></div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">📦 الطلبات الواردة</h3>
+<div id="merchantOrders" class="space-y-2 max-h-[26rem] overflow-y-auto custom-scrollbar"></div>
+</div>
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">💸 إشعارات الدفع</h3>
+<div id="merchantPayments" class="space-y-2 max-h-[26rem] overflow-y-auto custom-scrollbar"></div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<form id="productForm" class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-3">
+<h3 id="productFormTitle" class="font-bold text-blue-400">➕ إضافة قطعة جديدة</h3>
+
+<div><label for="prodName" class="lbl">اسم القطعة</label><input id="prodName" required="" class="field"></div>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="prodBrand" class="lbl">الماركة</label><select id="prodBrand" class="field"></select></div>
+<div><label for="prodCategory" class="lbl">الفئة</label><select id="prodCategory" class="field"></select></div>
+</div>
+<div class="grid grid-cols-3 gap-2">
+<div><label for="prodQuality" class="lbl">الجودة</label><select id="prodQuality" class="field"></select></div>
+<div><label for="prodPrice" class="lbl">السعر (<span class="cur-label">YER</span>)</label><input id="prodPrice" type="number" min="0" step="any" required="" class="field"></div>
+<div><label for="prodStock" class="lbl">الكمية</label><input id="prodStock" type="number" min="0" step="1" required="" class="field"></div>
+</div>
+<div class="flex gap-2">
+<button type="submit" class="flex-1 bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold transition">حفظ</button>
+<button type="button" class="px-4 bg-slate-700 hover:bg-slate-600 text-white rounded-xl text-sm transition">إلغاء</button>
+</div>
+</form>
+<div class="lg:col-span-2 bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">المخزون</h3>
+<div class="overflow-x-auto custom-scrollbar max-h-[26rem] overflow-y-auto">
+<table class="w-full text-sm text-right">
+<thead class="text-xs text-slate-400 border-b border-slate-800 sticky top-0 bg-cardBg"><tr><th class="py-2 px-2">القطعة</th><th class="px-2">الماركة</th><th class="px-2">السعر</th><th class="px-2">الكمية</th><th class="px-2"></th></tr></thead>
+<tbody id="inventoryTable"></tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="lg:col-span-2 bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-4">
+<div>
+<h3 class="font-bold">☁️ إدارة النفقات السحابية والاشتراكات</h3>
+<p class="text-xs text-slate-400">الاستضافة، النطاق، أنظمة الكاشير، باقات الإنترنت... سجّل الدفع الشهري ليُضاف تلقائياً إلى المصروفات</p>
+</div>
+<form class="grid grid-cols-1 sm:grid-cols-4 gap-2 items-end">
+<div class="sm:col-span-2"><label for="cloudName" class="lbl">الخدمة</label><input id="cloudName" required="" class="field" placeholder="استضافة الموقع"></div>
+<div><label for="cloudAmount" class="lbl">الشهرية (<span class="cur-label">YER</span>)</label><input id="cloudAmount" type="number" min="0" step="any" required="" class="field"></div>
+<button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold text-sm transition">إضافة</button>
+</form>
+<div id="cloudList" class="space-y-2"></div>
+</div>
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800">
+<h3 class="font-bold mb-3">توزيع المصروفات</h3>
+<div class="relative h-56"><canvas id="expenseChart" role="img" aria-label="رسم بياني لتوزيع المصروفات حسب التصنيف"></canvas></div>
+<p id="expenseChartEmpty" class="hidden text-sm text-slate-400 text-center py-10">لا توجد مصروفات مسجلة بعد.</p>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+<form id="settingsForm" class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-3">
+<h3 class="font-bold">⚙️ إعدادات المتجر</h3>
+<p id="defaultPinWarning" class="hidden text-xs bg-amber-500/10 text-amber-300 border border-amber-500/30 rounded-lg p-2">تنبيه: رمز المرور ما زال الافتراضي (1234). غيّره الآن.</p>
+<div><label for="setWhatsapp" class="lbl">رقم واتساب المتجر (بالصيغة الدولية بدون +)</label><input id="setWhatsapp" type="tel" class="field" placeholder="9665xxxxxxxx"></div>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="setRateUSD" class="lbl">1 SAR = ? USD</label><input id="setRateUSD" type="number" min="0" step="any" required="" class="field"></div>
+<div><label for="setRateYER" class="lbl">1 SAR = ? YER</label><input id="setRateYER" type="number" min="0" step="any" required="" class="field"></div>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div><label for="acc_kuraimi" class="lbl">حساب الكريمي</label><input id="acc_kuraimi" class="field"></div>
+<div><label for="acc_jaib" class="lbl">محفظة جيب / ون كاش</label><input id="acc_jaib" class="field"></div>
+<div><label for="acc_stc" class="lbl">رقم STC Pay</label><input id="acc_stc" class="field"></div>
+<div><label for="acc_bank" class="lbl">الآيبان / الحساب البنكي</label><input id="acc_bank" class="field"></div>
+</div>
+<div><label for="setPin" class="lbl">رمز مرور جديد (اتركه فارغاً لعدم التغيير)</label><input id="setPin" type="password" inputmode="numeric" minlength="4" autocomplete="new-password" class="field"></div>
+<button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold transition">حفظ الإعدادات</button>
+</form>
+<div class="bg-cardBg p-6 rounded-2xl border border-slate-800 space-y-3">
+<h3 class="font-bold">💾 النسخ الاحتياطي</h3>
+<p class="text-xs text-slate-400">جميع البيانات محفوظة في متصفح هذا الجهاز فقط. صدّر نسخة احتياطية بانتظام لنقلها أو حمايتها من الضياع.</p>
+<button class="w-full bg-slate-700 hover:bg-slate-600 text-white py-2.5 rounded-xl font-semibold text-sm transition">⬇️ تصدير نسخة احتياطية (JSON)</button>
+<label class="block w-full text-center bg-slate-700 hover:bg-slate-600 text-white py-2.5 rounded-xl font-semibold text-sm transition cursor-pointer">⬆️ استيراد نسخة احتياطية
+<input type="file" accept="application/json,.json" class="hidden">
+</label>
+<button class="w-full bg-red-600/20 text-red-400 border border-red-500/30 hover:bg-red-600 hover:text-white py-2.5 rounded-xl font-semibold text-sm transition">مسح جميع البيانات والعودة للوضع الافتراضي</button>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="text-center text-xs text-slate-500 py-6 border-t border-slate-800">
+عُدّة © <span id="year">2026</span> — منصة صيانة وقطع غيار الهواتف المحمولة
+</footer>
+
+<div id="toastHost" class="fixed bottom-4 inset-x-0 z-[60] flex flex-col items-center gap-2 px-4 pointer-events-none" aria-live="assertive"></div>
+
+
+
+
+
+
+<iframe id="nl-badge-frame" title="Powered by Netlify" src="cid:frame-A5616E6F1BFEB51348F84AE960724A81@mhtml.blink" style="position: fixed; bottom: 0px; right: 0px; border: 0px; margin: 0px; padding: 0px; background: transparent; color-scheme: dark; z-index: 2147483645; width: 192px; height: 63px; clip-path: path(&quot;M 3 3 H 179 V 50 H 3 Z&quot;);" data-nl-ready="1"></iframe></body></html>
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+600-6FF, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8p4_RA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+600-6FF, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 600; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8p4_RA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+600-6FF, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 700; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8p4_RA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 900; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscQyyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+600-6FF, U+750-77F, U+870-891, U+897-8E1, U+8E3-8FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC7, U+10EC9-10EEE, U+10EF0-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 900; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscSCyS8p4_RHH1.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Cairo; font-style: normal; font-weight: 900; font-display: swap; src: url("https://fonts.gstatic.com/s/cairo/v31/SLXVc1nY6HkvangtZmpQdkhzfH5lkSscRiyS8p4_RA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-64d01605-6262-4763-a7b6-07d0173b314f@mhtml.blink
+
+@charset "utf-8";
+
+*, ::before, ::after { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+::backdrop { --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; }
+
+*, ::after, ::before { box-sizing: border-box; border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); }
+
+::after, ::before { --tw-content: ''; }
+
+:host, html { line-height: 1.5; text-size-adjust: 100%; tab-size: 4; font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-feature-settings: normal; font-variation-settings: normal; -webkit-tap-highlight-color: transparent; }
+
+body { margin: 0px; line-height: inherit; }
+
+hr { height: 0px; color: inherit; border-top-width: 1px; }
+
+abbr:where([title]) { text-decoration: underline dotted; }
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
+
+a { color: inherit; text-decoration: inherit; }
+
+b, strong { font-weight: bolder; }
+
+code, kbd, pre, samp { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-feature-settings: normal; font-variation-settings: normal; font-size: 1em; }
+
+small { font-size: 80%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+sub { bottom: -0.25em; }
+
+sup { top: -0.5em; }
+
+table { text-indent: 0px; border-color: inherit; border-collapse: collapse; }
+
+button, input, optgroup, select, textarea { font-family: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: 100%; font-weight: inherit; line-height: inherit; letter-spacing: inherit; color: inherit; margin: 0px; padding: 0px; }
+
+button, select { text-transform: none; }
+
+button, input:where([type="button"]), input:where([type="reset"]), input:where([type="submit"]) { appearance: button; background-color: transparent; background-image: none; }
+
+progress { vertical-align: baseline; }
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto; }
+
+[type="search"] { appearance: textfield; outline-offset: -2px; }
+
+::-webkit-search-decoration { appearance: none; }
+
+::-webkit-file-upload-button { appearance: button; font: inherit; }
+
+summary { display: list-item; }
+
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre { margin: 0px; }
+
+fieldset { margin: 0px; padding: 0px; }
+
+legend { padding: 0px; }
+
+menu, ol, ul { list-style: none; margin: 0px; padding: 0px; }
+
+dialog { padding: 0px; }
+
+textarea { resize: vertical; }
+
+input::placeholder, textarea::placeholder { opacity: 1; color: rgb(156, 163, 175); }
+
+[role="button"], button { cursor: pointer; }
+
+:disabled { cursor: default; }
+
+audio, canvas, embed, iframe, img, object, svg, video { display: block; vertical-align: middle; }
+
+img, video { max-width: 100%; height: auto; }
+
+[hidden]:where(:not([hidden="until-found"])) { display: none; }
+
+.pointer-events-none { pointer-events: none; }
+
+.fixed { position: fixed; }
+
+.relative { position: relative; }
+
+.sticky { position: sticky; }
+
+.inset-0 { inset: 0px; }
+
+.inset-x-0 { left: 0px; right: 0px; }
+
+.bottom-4 { bottom: 1rem; }
+
+.top-0 { top: 0px; }
+
+.z-40 { z-index: 40; }
+
+.z-50 { z-index: 50; }
+
+.z-\[60\] { z-index: 60; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+
+.mb-1 { margin-bottom: 0.25rem; }
+
+.mb-2 { margin-bottom: 0.5rem; }
+
+.mb-3 { margin-bottom: 0.75rem; }
+
+.mb-4 { margin-bottom: 1rem; }
+
+.mb-6 { margin-bottom: 1.5rem; }
+
+.ml-1 { margin-left: 0.25rem; }
+
+.mt-1 { margin-top: 0.25rem; }
+
+.mt-auto { margin-top: auto; }
+
+.block { display: block; }
+
+.flex { display: flex; }
+
+.grid { display: grid; }
+
+.hidden { display: none; }
+
+.h-16 { height: 4rem; }
+
+.h-56 { height: 14rem; }
+
+.h-64 { height: 16rem; }
+
+.h-12 { height: 3rem; }
+
+.max-h-\[26rem\] { max-height: 26rem; }
+
+.max-h-\[28rem\] { max-height: 28rem; }
+
+.min-h-screen { min-height: 100vh; }
+
+.w-16 { width: 4rem; }
+
+.w-full { width: 100%; }
+
+.w-12 { width: 3rem; }
+
+.max-w-3xl { max-width: 48rem; }
+
+.max-w-7xl { max-width: 80rem; }
+
+.max-w-md { max-width: 28rem; }
+
+.flex-1 { flex: 1 1 0%; }
+
+.shrink-0 { flex-shrink: 0; }
+
+.flex-grow { flex-grow: 1; }
+
+.cursor-pointer { cursor: pointer; }
+
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0px, 1fr)); }
+
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+
+.flex-col { flex-direction: column; }
+
+.flex-wrap { flex-wrap: wrap; }
+
+.items-start { align-items: flex-start; }
+
+.items-end { align-items: flex-end; }
+
+.items-center { align-items: center; }
+
+.justify-center { justify-content: center; }
+
+.justify-between { justify-content: space-between; }
+
+.gap-2 { gap: 0.5rem; }
+
+.gap-3 { gap: 0.75rem; }
+
+.gap-4 { gap: 1rem; }
+
+.gap-6 { gap: 1.5rem; }
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(0.5rem * var(--tw-space-y-reverse)); }
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(0.75rem * var(--tw-space-y-reverse)); }
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(1rem * var(--tw-space-y-reverse)); }
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) { --tw-space-y-reverse: 0; margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse))); margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)); }
+
+.overflow-x-auto { overflow-x: auto; }
+
+.overflow-y-auto { overflow-y: auto; }
+
+.whitespace-pre-line { white-space: pre-line; }
+
+.rounded-2xl { border-radius: 1rem; }
+
+.rounded-full { border-radius: 9999px; }
+
+.rounded-lg { border-radius: 0.5rem; }
+
+.rounded-xl { border-radius: 0.75rem; }
+
+.border { border-width: 1px; }
+
+.border-b { border-bottom-width: 1px; }
+
+.border-t { border-top-width: 1px; }
+
+.border-amber-500\/30 { border-color: rgba(245, 158, 11, 0.3); }
+
+.border-blue-500\/30 { border-color: rgba(59, 130, 246, 0.3); }
+
+.border-emerald-500\/30 { border-color: rgba(16, 185, 129, 0.3); }
+
+.border-red-500\/30 { border-color: rgba(239, 68, 68, 0.3); }
+
+.border-rose-500\/30 { border-color: rgba(244, 63, 94, 0.3); }
+
+.border-slate-700 { --tw-border-opacity: 1; border-color: rgb(51 65 85 / var(--tw-border-opacity, 1)); }
+
+.border-slate-800 { --tw-border-opacity: 1; border-color: rgb(30 41 59 / var(--tw-border-opacity, 1)); }
+
+.bg-amber-500 { --tw-bg-opacity: 1; background-color: rgb(245 158 11 / var(--tw-bg-opacity, 1)); }
+
+.bg-amber-500\/10 { background-color: rgba(245, 158, 11, 0.1); }
+
+.bg-amber-600 { --tw-bg-opacity: 1; background-color: rgb(217 119 6 / var(--tw-bg-opacity, 1)); }
+
+.bg-amber-600\/20 { background-color: rgba(217, 119, 6, 0.2); }
+
+.bg-black\/80 { background-color: rgba(0, 0, 0, 0.8); }
+
+.bg-blue-600 { --tw-bg-opacity: 1; background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1)); }
+
+.bg-blue-600\/20 { background-color: rgba(37, 99, 235, 0.2); }
+
+.bg-cardBg { --tw-bg-opacity: 1; background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1)); }
+
+.bg-emerald-600 { --tw-bg-opacity: 1; background-color: rgb(5 150 105 / var(--tw-bg-opacity, 1)); }
+
+.bg-emerald-600\/20 { background-color: rgba(5, 150, 105, 0.2); }
+
+.bg-red-600\/20 { background-color: rgba(220, 38, 38, 0.2); }
+
+.bg-rose-600\/20 { background-color: rgba(225, 29, 72, 0.2); }
+
+.bg-slate-700 { --tw-bg-opacity: 1; background-color: rgb(51 65 85 / var(--tw-bg-opacity, 1)); }
+
+.bg-slate-800 { --tw-bg-opacity: 1; background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1)); }
+
+.bg-slate-900 { --tw-bg-opacity: 1; background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1)); }
+
+.bg-emerald-500\/15 { background-color: rgba(16, 185, 129, 0.15); }
+
+.p-1\.5 { padding: 0.375rem; }
+
+.p-2 { padding: 0.5rem; }
+
+.p-3 { padding: 0.75rem; }
+
+.p-4 { padding: 1rem; }
+
+.p-6 { padding: 1.5rem; }
+
+.p-8 { padding: 2rem; }
+
+.px-1\.5 { padding-left: 0.375rem; padding-right: 0.375rem; }
+
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+.py-0\.5 { padding-top: 0.125rem; padding-bottom: 0.125rem; }
+
+.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+
+.py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
+
+.py-10 { padding-top: 2.5rem; padding-bottom: 2.5rem; }
+
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+
+.py-2\.5 { padding-top: 0.625rem; padding-bottom: 0.625rem; }
+
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+
+.pb-1 { padding-bottom: 0.25rem; }
+
+.pb-4 { padding-bottom: 1rem; }
+
+.pt-4 { padding-top: 1rem; }
+
+.text-center { text-align: center; }
+
+.text-right { text-align: right; }
+
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+
+.text-xs { font-size: 0.75rem; line-height: 1rem; }
+
+.text-\[11px\] { font-size: 11px; }
+
+.font-black { font-weight: 900; }
+
+.font-bold { font-weight: 700; }
+
+.font-semibold { font-weight: 600; }
+
+.leading-none { line-height: 1; }
+
+.leading-relaxed { line-height: 1.625; }
+
+.leading-tight { line-height: 1.25; }
+
+.leading-snug { line-height: 1.375; }
+
+.tracking-wider { letter-spacing: 0.05em; }
+
+.text-amber-300 { --tw-text-opacity: 1; color: rgb(252 211 77 / var(--tw-text-opacity, 1)); }
+
+.text-amber-400 { --tw-text-opacity: 1; color: rgb(251 191 36 / var(--tw-text-opacity, 1)); }
+
+.text-blue-400 { --tw-text-opacity: 1; color: rgb(96 165 250 / var(--tw-text-opacity, 1)); }
+
+.text-emerald-400 { --tw-text-opacity: 1; color: rgb(52 211 153 / var(--tw-text-opacity, 1)); }
+
+.text-red-400 { --tw-text-opacity: 1; color: rgb(248 113 113 / var(--tw-text-opacity, 1)); }
+
+.text-rose-400 { --tw-text-opacity: 1; color: rgb(251 113 133 / var(--tw-text-opacity, 1)); }
+
+.text-slate-200 { --tw-text-opacity: 1; color: rgb(226 232 240 / var(--tw-text-opacity, 1)); }
+
+.text-slate-300 { --tw-text-opacity: 1; color: rgb(203 213 225 / var(--tw-text-opacity, 1)); }
+
+.text-slate-400 { --tw-text-opacity: 1; color: rgb(148 163 184 / var(--tw-text-opacity, 1)); }
+
+.text-slate-500 { --tw-text-opacity: 1; color: rgb(100 116 139 / var(--tw-text-opacity, 1)); }
+
+.text-slate-950 { --tw-text-opacity: 1; color: rgb(2 6 23 / var(--tw-text-opacity, 1)); }
+
+.text-white { --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity, 1)); }
+
+.text-white\/80 { color: rgba(255, 255, 255, 0.8); }
+
+.shadow-2xl { --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25); --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+.shadow-lg { --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color); box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+.shadow-blue-600\/30 { --tw-shadow-color: rgb(37 99 235 / 0.3); --tw-shadow: var(--tw-shadow-colored); }
+
+.shadow-emerald-600\/20 { --tw-shadow-color: rgb(5 150 105 / 0.2); --tw-shadow: var(--tw-shadow-colored); }
+
+.backdrop-blur-sm { --tw-backdrop-blur: blur(4px); backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia); }
+
+.transition { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+
+.hover\:border-blue-500\/40:hover { border-color: rgba(59, 130, 246, 0.4); }
+
+.hover\:bg-amber-500:hover { --tw-bg-opacity: 1; background-color: rgb(245 158 11 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-blue-500:hover { --tw-bg-opacity: 1; background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-emerald-500:hover { --tw-bg-opacity: 1; background-color: rgb(16 185 129 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-emerald-600:hover { --tw-bg-opacity: 1; background-color: rgb(5 150 105 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-red-600:hover { --tw-bg-opacity: 1; background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-rose-600:hover { --tw-bg-opacity: 1; background-color: rgb(225 29 72 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-slate-600:hover { --tw-bg-opacity: 1; background-color: rgb(71 85 105 / var(--tw-bg-opacity, 1)); }
+
+.hover\:bg-slate-800:hover { --tw-bg-opacity: 1; background-color: rgb(30 41 59 / var(--tw-bg-opacity, 1)); }
+
+.hover\:text-white:hover { --tw-text-opacity: 1; color: rgb(255 255 255 / var(--tw-text-opacity, 1)); }
+
+.focus\:border-blue-500:focus { --tw-border-opacity: 1; border-color: rgb(59 130 246 / var(--tw-border-opacity, 1)); }
+
+.focus\:outline-none:focus { outline: transparent solid 2px; outline-offset: 2px; }
+
+.disabled\:cursor-not-allowed:disabled { cursor: not-allowed; }
+
+.disabled\:opacity-40:disabled { opacity: 0.4; }
+
+@media (min-width: 640px) {
+  .sm\:col-span-2 { grid-column: span 2 / span 2; }
+  .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .sm\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .sm\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0px, 1fr)); }
+}
+
+@media (min-width: 768px) {
+  .md\:w-64 { width: 16rem; }
+  .md\:w-auto { width: auto; }
+  .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .md\:flex-row { flex-direction: row; }
+  .md\:items-center { align-items: center; }
+  .md\:pb-0 { padding-bottom: 0px; }
+}
+
+@media (min-width: 1024px) {
+  .lg\:col-span-2 { grid-column: span 2 / span 2; }
+  .lg\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+  .lg\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0px, 1fr)); }
+}
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-472c4a21-c760-4cd7-a7b4-59ee1067aacd@mhtml.blink
+
+@charset "utf-8";
+
+body { font-family: Cairo, sans-serif; background-color: rgb(15, 23, 42); color: rgb(248, 250, 252); padding-bottom: env(safe-area-inset-bottom); }
+
+.custom-scrollbar::-webkit-scrollbar, .custom-scrollbar ::-webkit-scrollbar { width: 6px; height: 6px; }
+
+.custom-scrollbar::-webkit-scrollbar-thumb, .custom-scrollbar ::-webkit-scrollbar-thumb { background: rgb(51, 65, 85); border-radius: 4px; }
+
+.field { width: 100%; background: rgb(15, 23, 42); border: 1px solid rgb(51, 65, 85); border-radius: 0.75rem; padding: 0.6rem 0.9rem; font-size: 0.875rem; color: rgb(248, 250, 252); }
+
+.field:focus { outline: none; border-color: rgb(59, 130, 246); }
+
+.lbl { display: block; font-size: 0.75rem; color: rgb(148, 163, 184); margin-bottom: 0.25rem; }
+
+input[type="number"] { direction: ltr; text-align: right; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: auto ease 0s 1 normal none running none !important; scroll-behavior: auto !important; }
+}
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/html
+Content-ID: <frame-A5616E6F1BFEB51348F84AE960724A81@mhtml.blink>
+Content-Transfer-Encoding: binary
+
+<!DOCTYPE html><html class="nl-narrow" style="--nl-vw: 384px; --nl-vh: 721px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-ac1a2553-5db7-4158-83f2-a9e013dbe274@mhtml.blink" /><meta name="color-scheme" content="dark"></head><body>
+      <div class="nl-wrap">
+        <section class="nl-card" id="nl-card" aria-label="Build your own site on Netlify">
+          <button type="button" class="nl-icon-btn nl-tap nl-card-close" id="nl-card-close" aria-label="Close"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M4.5 4.5 11.5 11.5M11.5 4.5 4.5 11.5"></path></svg></button>
+          <h2><em>Build your own site with Netlify</em></h2>
+          <p>Describe what you want, and an AI agent designs, builds and deploys it in minutes.</p>
+          <form class="nl-prompt" action="https://app.netlify.com/start" method="get" target="_blank" rel="noopener">
+            <textarea name="prompt" rows="2" required="" maxlength="300" autocomplete="off" enterkeyhint="go" placeholder="A shop for my handmade surfboards…" aria-label="Describe the site you want to build"></textarea>
+            <button type="submit" class="nl-send nl-tap" aria-label="Build this site"><svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 12.75v-9.5M3.9 7.35 8 3.25l4.1 4.1"></path></svg></button>
+            
+            
+            
+            
+            
+            
+          </form>
+          <div class="nl-or"><span>or</span></div>
+          <a class="nl-drop" href="https://app.netlify.com/drop?utm_source=netlify_badge&amp;utm_campaign=loops&amp;utm_medium=owned&amp;utm_content=drop&amp;utm_id=a9457cf3-36ec-4ad4-b50e-1652b388c266" target="_blank" rel="noopener">
+            <span>Drop a site you already have</span><span class="nl-arrow" aria-hidden="true">→</span>
+          </a>
+          
+        </section>
+        <button type="button" class="nl-badge" id="nl-badge" aria-expanded="false" aria-controls="nl-card" aria-label="Powered by Netlify — build your own site">
+          <svg width="18" height="18" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+    <path fill="#fff" d="M17.9922 18.3225H14.005L13.6746 17.9921V14.005L14.005 13.6746H17.9922L18.3226 14.005V17.9921L17.9922 18.3225Z"></path>
+    <g fill="#05BDBA">
+      <path d="M9.6958 24.3311H9.35705L7.6661 22.6401V22.3041L10.2511 19.7164L12.042 19.7191L12.2808 19.9552V21.7461L9.6958 24.3311Z"></path>
+      <path d="M7.6661 9.69576V9.35701L9.35705 7.66606H9.6958L12.2808 10.2511V12.0392L12.042 12.2808H10.2511L7.6661 9.69576Z"></path>
+      <path d="M10.0457 17.4369H0.205466L0 17.2314V14.7658L0.205466 14.5603H10.0457L10.2511 14.7658V17.2314L10.0457 17.4369Z"></path>
+      <path d="M31.7945 17.4369H21.9544L21.7489 17.2314V14.7658L21.9544 14.5603H31.7945L32 14.7658V17.2314L31.7945 17.4369Z"></path>
+      <path d="M14.5631 10.0456V2.66547L14.7686 2.46001H17.2343L17.4396 2.66547V10.0456L17.2343 10.2511H14.7686L14.5631 10.0456Z"></path>
+      <path d="M14.5631 29.3316V21.9515L14.7686 21.746H17.2343L17.4396 21.9515V29.3316L17.2343 29.5371H14.7686L14.5631 29.3316Z"></path>
+    </g></svg>
+          <span><span class="nl-badge-label">Powered by</span> <span class="nl-badge-brand">Netlify</span></span>
+        </button>
+      </div>
+      
+    </body></html>
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-ac1a2553-5db7-4158-83f2-a9e013dbe274@mhtml.blink
+
+@charset "utf-8";
+
+:root { --nl-vw: 384px; --nl-vh: 721px; }
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0px; padding: 0px; background: transparent; overflow: hidden; }
+
+body { display: flex; align-items: flex-end; justify-content: flex-end; height: 100vh; padding: 8px 18px 18px 8px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5; color: rgb(244, 249, 249); -webkit-font-smoothing: antialiased; }
+
+.nl-wrap { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; width: max-content; max-width: calc(var(--nl-vw,100vw) - 26px); }
+
+button { font-family: inherit; cursor: pointer; }
+
+:focus-visible { outline: rgb(50, 230, 226) solid 2px; outline-offset: 2px; border-radius: 6px; }
+
+.nl-icon-btn { position: relative; flex: 0 0 auto; width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center; border-radius: 8px; border: 1px solid transparent; background: transparent; color: rgb(213, 227, 230); transition: background 0.15s, color 0.15s; }
+
+.nl-icon-btn:hover { background: rgba(255, 255, 255, 0.08); color: rgb(244, 249, 249); }
+
+.nl-tap::after { content: ""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: max(100%, 44px); height: max(100%, 44px); }
+
+@keyframes nl-rise { 
+  0% { opacity: 0; transform: translateY(10px) scale(0.97); }
+  100% { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition: none !important; }
+}
+
+.nl-card { position: relative; display: none; width: min(340px,calc(var(--nl-vw,100vw) - 26px)); max-height: calc(var(--nl-vh,100vh) - 84px); overflow-y: auto; background: linear-gradient(rgb(19, 40, 50) 0%, rgb(14, 30, 37) 100%); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 18px; padding: 18px; transform-origin: right bottom; animation: 0.3s cubic-bezier(0.34, 1.4, 0.4, 1) 0s 1 normal both running nl-rise; }
+
+.nl-card.open { display: block; }
+
+.nl-card-close { position: absolute; top: 10px; right: 10px; }
+
+.nl-card h2 { margin: 0px; padding-right: 30px; font-size: 16px; font-weight: 750; letter-spacing: -0.015em; line-height: 1.35; }
+
+.nl-card h2 em { font-style: normal; background: linear-gradient(90deg, rgb(50, 230, 226), rgb(77, 124, 254), rgb(154, 107, 255)) text; -webkit-text-fill-color: transparent; color: transparent; }
+
+.nl-card p { margin: 8px 0px 0px; font-size: 12.5px; color: rgb(213, 227, 230); }
+
+.nl-prompt { position: relative; margin-top: 14px; background: rgb(16, 34, 43); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 14px; padding: 10px 12px; transition: border-color 0.15s, box-shadow 0.15s; }
+
+.nl-prompt:focus-within { border-color: rgb(5, 189, 186); box-shadow: rgba(5, 189, 186, 0.18) 0px 0px 0px 3px; }
+
+.nl-prompt textarea { display: block; width: 100%; height: 38px; resize: none; border: 0px; outline: none; background: transparent; color: rgb(244, 249, 249); font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-language-override: inherit; font-size: 13px; line-height: 19px; padding: 0px 28px 0px 0px; }
+
+.nl-prompt textarea::placeholder { color: rgb(169, 189, 194); }
+
+.nl-send { position: absolute; right: 9px; bottom: 9px; width: 24px; height: 24px; flex: 0 0 auto; display: inline-flex; align-items: center; justify-content: center; border: 0px; border-radius: 50%; background: rgb(5, 189, 186); color: rgb(2, 25, 27); transition: background 0.15s; }
+
+.nl-send:hover { background: rgb(50, 230, 226); }
+
+@media (pointer: coarse) {
+  .nl-prompt textarea { font-size: 16px; line-height: 21px; height: 42px; }
+}
+
+.nl-or { display: flex; align-items: center; gap: 10px; margin: 12px 0px; font-size: 10.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: rgb(169, 189, 194); }
+
+.nl-or::before, .nl-or::after { content: ""; flex: 1 1 0%; height: 1px; background: rgba(255, 255, 255, 0.09); }
+
+.nl-drop { display: flex; align-items: center; justify-content: space-between; gap: 6px; text-decoration: none; background: rgb(27, 58, 69); border: 1px solid rgba(255, 255, 255, 0.09); border-radius: 10px; padding: 10px 12px; font-size: 13px; font-weight: 600; color: rgb(207, 224, 227); transition: background 0.15s, color 0.15s, border-color 0.15s; }
+
+.nl-drop:hover { background: rgb(34, 71, 83); color: rgb(244, 249, 249); border-color: rgba(50, 230, 226, 0.3); }
+
+.nl-drop .nl-arrow { transition: transform 0.18s cubic-bezier(0.34, 1.4, 0.4, 1); }
+
+.nl-drop:hover .nl-arrow { transform: translateX(3px); }
+
+.nl-badge { display: flex; align-items: center; gap: 9px; white-space: nowrap; border: 1px solid rgba(255, 255, 255, 0.09); background: linear-gradient(rgb(20, 43, 52), rgb(14, 30, 37)); color: rgb(244, 249, 249); border-radius: 999px; padding: 9px 14px 9px 11px; font-size: 13px; font-weight: 600; letter-spacing: 0.01em; transition: border-color 0.2s; }
+
+.nl-badge:hover { border-color: rgba(50, 230, 226, 0.26); }
+
+.nl-hide { display: block; width: 100%; margin-top: 10px; border: 0px; background: transparent; color: rgb(169, 189, 194); font-size: 11.5px; font-weight: 600; padding: 4px; border-radius: 8px; transition: color 0.15s; }
+
+.nl-hide:hover { color: rgb(213, 227, 230); text-decoration: underline; }
+
+.nl-badge-label { color: rgb(213, 227, 230); font-weight: 500; }
+
+.nl-badge-brand { font-weight: 750; }
+------MultipartBoundary--i8rQxZnIK8wXvBTEGK0opyaPZ5hWWyMtzXzh1vK1W7------
